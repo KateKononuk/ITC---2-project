@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+  overflow-x: hidden;
+}
+
+  .container {
+    background-color: rgb(13 110 253 / 25%);
+  }
+  .spacing {
+    width: 98%;
+    padding: 25px 0 25px 25px ;
+  }
+   
+  a {
+    text-decoration: none;
+  }
+  #listOutput p {
+    margin: 0 0 0 30px;
+    padding: 10px 0 10px 30px;
+  }
+  #listOutput p:hover {
+    background-color: rgb(36, 108, 216);
+    color: white;
+    border-radius: 10px;
+  }
+  form.inputForm button:hover {
+    background: #0b7dda;
+  }
+
+#value {
+  width: 88%;
+}
+
+  .d-none {
+    display: none;
+  }
+
+
+  #listOutput {
+    width: 90%;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #btnSearch {
+  padding: 10px 30px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid white;
+
+  }
+
+  input {
+    padding: 10px;
+    border: 2px solid white !important;
+  }
+
+  .chWidth {
+    width: 90%;
+    border-bottom: 1px dashed white;
+  }
+
+  .heading {
+    text-align: center;
+    margin: 2rem 0 0 0;
+    color: rgb(13, 86, 241);
+  }
+
+ .input-group.spacing {
+    margin-top: 30px !important;
+  }
+
+
+  #marqueeList {
+  background-color: red;
+  color: white;
+  font-size: 17px;
+  }
